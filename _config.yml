@@ -18,7 +18,7 @@ author:
   title: Computer Technician
   address: Bossier City, Louisiana, USA
   email: jms@thelonegeek.net
-  link: http://thelonegeek.net
+  link: http://me.thelonegeek.net
   weibo:
   github: jms1989
   linkedin: msanangelo
@@ -28,19 +28,19 @@ author:
 #  stackoverflow: 4582127
   workHistory:
     - work1:
-      company: Freds, Inc
-      location: Bossier City, LA
-      title: Stocker
-      started: 2008
-      duration: (2008 - 2013)
-      description: 
-    - work2:
       company: Jet Ski Haven
       location: Shreveport, LA
       title: Data Entry
       started: 2014
       duration: (2014 - 2014)
-      description: 
+      description: <ul class="list-unstyled"><li>Displayed and priced merchandise, adjusted products on shelves and build in-store displays.</li><li>Provided electronic customer support and knowledge of merchandise location to customers.</li><li>Cleaned and organized shopping carts and store facility to prepare for customer satisfaction.</li><li>Unload merchandise daily.</li></ul>
+    - work2:
+      company: Freds, Inc
+      location: Bossier City, LA
+      title: Stocker
+      started: 2008
+      duration: (2008 - 2013)
+      description: <ul class="list-unstyled"><li>Pull data from related websites for product entry (including product description, images, categories, etc.)</li><li>Categorize product listing by part types.</li><li>Prepare or organize online storefront marketing material, including product descriptions or subject lines, optimizing content to search engine criteria.</li></ul>
 #    - work3:
 #      company: 
 #      location:
@@ -56,7 +56,7 @@ author:
       major: 
       started: 2012
       duration: ( 2012 - 2013 )
-      description: Crash course in electronics.
+      description: Crash course in electronics. <br/><p style="font-weight:bold;">Coursework</p><ul><li> Computer Hardware/Software</li><li>DC/AC Fundamentals</li><li>Cables and Cabling</li><li>Low Voltage Systems</li><li>Residential Networking</li></ul>
   languages:
     - language1:
       name: English
@@ -82,6 +82,9 @@ author:
       name: Computer Builder
       percentage: 80%
     - skill2:
+      name: Home Network Admin
+      percentage: 80%
+    - skill3:
       name: Soldering
       percentage: 50%
 
