@@ -1,11 +1,11 @@
 # Site settings
-title: Dong Liang's CV 
-description: ddbullfrog's CV
+title: Michael SanAngelo's CV 
+description: jms1989's CV
 favicon: /assets/img/avatar.JPG
-baseurl: https://ddbullfrog.github.io/resumecard
-url: https://ddbullfrog.github.io/resumecard
+url: http://me.thelonegeek.net/
+baseurl: 
 rss_url: /pages/atom.xml
-google_analytics: UA-63653234-1
+google_analytics: 
 
 # Build settings
 markdown: kramdown
@@ -14,72 +14,74 @@ exclude: [vendor]
 
 # Author settings
 author:
-  name: Dong Liang
-  title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang@gmail.com
-  link: http://ddbullfrog.com
+  name: Michael SanAngelo
+  title: Computer Technician
+  address: Bossier City, Louisiana, USA
+  email: jms@thelonegeek.net
+  link: http://thelonegeek.net
   weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
-  gavatar: /resumecard/assets/img/avatar.JPG
-  stackoverflow:
+  github: jms1989
+  linkedin: msanangelo
+#  twitter: 
+  gavatar: /assets/img/avatar.JPG
+#  stackoverflow:
 #  stackoverflow: 4582127
   workHistory:
     - work1:
-      company: Finzsoft Solutions Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Freds, Inc
+      location: Bossier City, LA
+      title: Stocker
+      started: 2008
+      duration: (2008 - 2013)
+      description: 
     - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Jet Ski Haven
+      location: Shreveport, LA
+      title: Data Entry
+      started: 2014
+      duration: (2014 - 2014)
+      description: 
+#    - work3:
+#      company: 
+#      location:
+#      title: 
+#      started: 
+#      duration: 
+#      description: 
   educationHistory:
     - education1:
-      organization: Northeastern University
-      location: Shenyang, China
-      degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      organization: Remington College
+      location: Shreveport, LA
+      degree: Electronic Technology
+      major: 
+      started: 2012
+      duration: ( 2012 - 2013 )
+      description: Crash course in electronics.
   languages:
     - language1:
-      name: Chinese
-      proficiency: Native
-    - language2:
       name: English
-      proficiency: Professional
-    - language3:
-      name: Japanese
-      proficiency: Limit
+      proficiency: Native
   programmingSkills:
     - skill1:
       name: HTML
-      percentage: 100%
+      percentage: 60%
     - skill2:
       name: Bootstrap
-      percentage: 90%
+      percentage: 40%
     - skill3:
-      name: JavaScript
-      percentage: 70%
-    - skill4:
-      name: AngularJS
-      percentage: 70%
-    - skill5:
-      name: Java/Java EE
-      percentage: 90%
+      name: Javascript
+      percentage: 10%
+#    - skill4:
+#      name: 
+#      percentage: 0%
+#    - skill5:
+#      name: 
+#      percentage: 0%
+  electronicSkills:
+    - skill1:
+      name: Computer Builder
+      percentage: 80%
+    - skill2:
+      name: Soldering
+      percentage: 50%
+

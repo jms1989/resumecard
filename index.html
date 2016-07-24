@@ -91,7 +91,7 @@ layout: default
             {% endif %}
         </div>
         <div class="col-md-4">
-            {% if site.author.stackoverflow or site.author.programmingSkills %}
+            {% if site.author.stackoverflow or site.author.programmingSkills or site.author.electronicSkills %}
                 <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
                 {% if site.author.stackoverflow %}
                 <div class="grid-block">
@@ -235,6 +235,28 @@ layout: default
                     </ul>
                 </div>
                 {% endif %}
+				<h3 class="title with-icon"><span class="fa fa-desktop cat-title"></span> Electronic Skills</h3>
+                {% if site.author.electronicSkills %}
+                <div class="grid-block">
+                    <ul class="list-unstyled list-skills">
+                        {% for electronicSkill in site.author.electronicSkills %}
+                            <li>
+                                {% if electronicSkill.name %}
+                                    <span class="caption-skill">{{ electronicSkill.name }}</span>
+                                {% endif %}
+                                {% if electronicSkill.percentage %}
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: {{ electronicSkill.percentage }}">
+                                            <span>{{ electronicSkill.percentage }} </span>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
             {% endif %}
             {% if site.author.languages %}
                 <div class="deviter"></div>
