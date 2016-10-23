@@ -6,7 +6,6 @@ url: http://me.thelonegeek.net/
 baseurl: 
 rss_url: /pages/atom.xml
 google_analytics: 
-downloadpdf: /Joseph-SanAngelo-Resume.pdf
 
 # Build settings
 markdown: kramdown
@@ -20,6 +19,7 @@ author:
   address: Bossier City, Louisiana, USA
   email: jms@thelonegeek.net
   link: http://me.thelonegeek.net
+  resumepdf: /Joseph-SanAngelo-Resume.pdf
   weibo:
   github: jms1989
   linkedin: michael-sanangelo
