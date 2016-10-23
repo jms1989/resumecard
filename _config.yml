@@ -6,7 +6,7 @@ url: http://me.thelonegeek.net/
 baseurl: 
 rss_url: /pages/atom.xml
 google_analytics: 
-downloadpdf: Joseph-SanAngelo-Resume.pdf
+downloadpdf: /Joseph-SanAngelo-Resume.pdf
 
 # Build settings
 markdown: kramdown
